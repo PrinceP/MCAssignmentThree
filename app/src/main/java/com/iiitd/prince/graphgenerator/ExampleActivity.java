@@ -34,7 +34,7 @@ public class ExampleActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.ExampleView);
+        setContentView(R.layout.example_activity);
 
         // initialize our XYPlot reference:
         plot = (XYPlot) findViewById(R.id.plot);
